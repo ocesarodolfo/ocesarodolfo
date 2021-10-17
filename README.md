@@ -1,7 +1,7 @@
-### Hi, I'm <a style="text-decoration: none; text-color: unset; text-underline-position: none;" href="https://github.com/cesarodolfo">Rodolfo</a>! 👋
+### Olá, meu nome é <a style="text-decoration: none; text-color: unset; text-underline-position: none;" href="https://github.com/cesarodolfo">Rodolfo</a>! 👋
 
-- 😄 Pronouns: He/Him
-- 🔍 In search of knowledge!
+- 😄 Pronomes: Ele / Dele
+- 🔍 Em busca do conhecimento!
 
 <div align="center">
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=cesarodolfo&show_icons=true&theme=dark&include_all_commits=true&count_private=true">
