@@ -1,6 +1,5 @@
 ## Olá, meu nome é <a style="text-decoration: none; text-color: unset; text-underline-position: none;" href="https://github.com/cesarodolfo">Rodolfo</a>! 👋
 
-- 😄 Pronomes: Ele / Dele
 - 🔍 Em busca do conhecimento!
 - 🧠 Interesse em desenvolvimento pessoal e proficional.
 
@@ -31,4 +30,4 @@
 </div>
 
 ## Mais
-- Nome artístico: oSnoly
+- Nick: oSnoly
