@@ -10,7 +10,7 @@
 </div>
 
 ## Projetos Acadêmicos
-- Estagiando: modelagem de um sistema WEB para o acompanhamento de estágios.
+- Estagiando: modelagem de um sistema WEB para o acompanhamento de estágios (não finalizado).
 - NãoSeiQCurso: projeto de iniciação ciêntífica para auxiliar os novos alunos do CEFET-MG a escolherem um curso.
 - APPHIV: projeto interdiciplinar desenvolvido no final do curso técnico em informática, sendo um aplicativo para auxiliar portadores do vírus HIV no acompanhamento e gerenciamento de seus sintomas e medicações; 2021.
 
@@ -33,6 +33,3 @@
   <a href="https://www.linkedin.com/in/rodolfo-cesar-cordeiro-b448a0195" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/cesarodolfo05" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
-
-## Mais
-- Nick: oSnoly
