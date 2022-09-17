@@ -9,6 +9,11 @@
   <img height="130em" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cesarodolfo&layout=compact&langs_count=7&theme=dark">
 </div>
 
+## Projetos Acadêmicos
+- Estagiando: modelagem de um sistema WEB para o acompanhamento de estágios.
+- NãoSeiQCurso: projeto de iniciação ciêntífica para auxiliar os novos alunos do CEFET-MG a escolherem um curso.
+- APPHIV: projeto interdiciplinar desenvolvido no final do curso técnico em informática, sendo um aplicativo para auxiliar portadores do vírus HIV no acompanhamento e gerenciamento de seus sintomas e medicações; 2021.
+
 ## Conhecimentos
 <div style="display: inline_block"><br>
   <img align="center" alt="css3" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
