@@ -16,13 +16,6 @@
   <img align="center" alt="css3" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"/>
 </div>
 
-## Contatos
-<div>
-  <a href="mailto:rodolfocordeiro2002@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/rodolfo-cesar-cordeiro-b448a0195" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://instagram.com/cesarodolfo05" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-</div>
-
 ## GitHub Stats
 <div>
   <img height="130em" src="https://github-readme-stats.vercel.app/api?username=cesarodolfo&show_icons=true&theme=dark&include_all_commits=true&count_private=true">
@@ -33,3 +26,10 @@
 - Estagiando: modelagem de um sistema WEB para o acompanhamento de estágios (não finalizado).
 - NãoSeiQCurso: projeto de iniciação ciêntífica para auxiliar os novos alunos do CEFET-MG a escolherem um curso.
 - APPHIV: projeto interdiciplinar desenvolvido no final do curso técnico em informática, sendo um aplicativo para auxiliar portadores do vírus HIV no acompanhamento e gerenciamento de seus sintomas e medicações; 2021.
+
+## Contatos
+<div>
+  <a href="mailto:rodolfocordeiro2002@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/rodolfo-cesar-cordeiro-b448a0195" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/cesarodolfo05" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+</div>
