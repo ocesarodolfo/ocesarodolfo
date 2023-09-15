@@ -5,9 +5,9 @@
 
 ## GitHub Stats
 <div>
-  <img height="130em" src="https://github-readme-stats.vercel.app/api?username=cesarodolfo&show_icons=true&theme=dark&include_all_commits=true&count_private=true">
-  <img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cesarodolfo&layout=compact&langs_count=7&theme=dark"> <br>
-  <img src="https://komarev.com/ghpvc/?username=cesarodolfo&color=green">
+  <img height="130em" src="https://github-readme-stats.vercel.app/api?username=ocesarodolfo&show_icons=true&theme=dark&include_all_commits=true&count_private=true">
+  <img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ocesarodolfo&layout=compact&langs_count=7&theme=dark"> <br>
+  <img src="https://komarev.com/ghpvc/?username=ocesarodolfo&color=green">
 </div>
 
 ## Projetos Acadêmicos
