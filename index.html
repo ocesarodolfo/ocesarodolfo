@@ -96,13 +96,18 @@
         }
 
         .social-icons a {
-            color: #FF5733;
+            color: white;
             margin: 0 10px;
             text-decoration: none;
+            display: initial;
+            border-radius: 5px;
+            transition: transform .2s;
+            background-color: rgba(0,0,0,0.2);
         }
 
         .social-icons a:hover {
-            color: #FFA07A;
+            color: aqua;
+             transform: scale(1.5);
         }
         .display-4 {
             font-weight: bold !important;
@@ -112,7 +117,7 @@
 <body>
     <header class="text-center">
         <h1 class="display-4">Rodolfo Cesar Cordeiro</h1>
-        <h4 class="display-3">Dev Full Stack</h4>
+        <h2>Dev Full Stack</h2>
         <!-- Adicione os ícones de redes sociais aqui -->
         <div class="social-icons">
             <a href="https://github.com/ocesarodolfo" target="_blank"><i class="fab fa-github"></i></a>
