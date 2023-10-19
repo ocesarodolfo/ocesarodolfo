@@ -1,0 +1,132 @@
+/* Estilo para o cabeçalho */
+header {
+    background: linear-gradient(135deg, #3498db, #1abc9c);
+    color: #fff;
+    padding: 20px 0;
+}
+
+#sobre .container {
+    text-align: center;
+}
+
+#sobre .container p {
+    width: 50%;
+    display: inline-block;
+    transition: width 1.3s;
+    text-align: justify;
+}
+
+#sobre .container p::before {
+    content: "\00a0"; /* Código Unicode para espaço não quebrável */
+}
+
+/* Estilo para os títulos das seções */
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Estilo para as seções */
+.section {
+    padding: 15px 0 15px 0;
+}
+
+/* Estilo para os cards de projeto */
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para os botões */
+.btn-primary {
+    background-color: #ff5733;
+    border-color: #ff5733;
+}
+
+.btn-primary:hover {
+    background-color: #ffa07a;
+    border-color: #ffa07a;
+}
+
+/* Estilo para as habilidades */
+.skills-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.skills-category {
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Estilo para os ícones de redes sociais */
+.social-icons {
+    font-size: 2rem;
+    margin-top: 20px;
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.social-icons i {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 1.0s, transform 0.2s;
+}
+
+.social-icons i:hover {
+    color: aqua;
+    transform: scale(0.9);
+    box-shadow: 0 0 0.8 rgba(0,0,0,0.8);
+}
+
+.display-4 {
+    font-weight: bold !important;
+}
+
+section:focus {
+ border: 1px solid lightgreen !important;
+}
+
+footer {
+    background: linear-gradient(135deg, #3498db, #1abc9c);
+    color: #fff;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    #sobre .container p {
+        width: 100%; /* Quando a largura da tela for menor ou igual a 480px, a largura da div aumentará para 100% */
+    }
+}
+
+@media (max-width: 480px) {
+    #sobre .container p {
+        width: 100%; /* Quando a largura da tela for menor ou igual a 480px, a largura da div aumentará para 100% */
+    }
+}

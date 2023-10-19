@@ -1,275 +1,269 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Adicione os links para o Bootstrap CSS e o CSS personalizado (opcional) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">	
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rodolfo Cesar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <!-- Adicione seu CSS personalizado (opcional) -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Adicione um estilo personalizado para melhorar a aparência -->
-    <style>
-        /* Estilo para o cabeçalho */
-        header {
-            background: linear-gradient(135deg, #3498db, #1abc9c);
-            color: #fff;
-            padding: 20px 0;
-        }
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portifólio: Rodolfo</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <header class="text-center">
+            <h1 class="display-4">Rodolfo Cesar Cordeiro</h1>
+            <h2>Dev Full Stack</h2>
+            <div class="social-icons">
+                <a href="https://github.com/ocesarodolfo" target="_blank"
+                    ><i class="fab fa-github"></i
+                ></a>
+                <a
+                    href="https://www.instagram.com/ocesarodolfo/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="mailto:rodolfocordeiro2002@gmail.com"
+                    ><i class="fas fa-envelope"></i
+                ></a>
+                <a
+                    href="https://www.linkedin.com/in/rodolfo-cesar-cordeiro-b448a0195/https://www.linkedin.com/in/rodolfo"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                ></a>
+            </div>
+        </header>
 
-        /* Estilo para os títulos das seções */
-        .section-title {
-            font-size: 2.5rem;
-            color: #333;
-            margin-bottom: 30px;
-        }
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p id="pl">
+                    Sou um desenvolvedor Full Stack com experiência em programação web e banco de dados. Tenho conhecimentos em HTML5, CSS3, JavaScript, PHP e Banco de Dados MySQL. Além disso, sou ex-aluno do curso Técnico em Informática pelo Centro Federal de Educação Tecnológica de Minas Gerais – CEFET-MG, campus Leopoldina.
+                </p>
+                <p id="pl">
+                    Interessado em adquirir novos conhecimentos e experiências,
+                    vivenciando novos desafios para aperfeiçoamento profissional
+                    e pessoal.
+                </p>
+            </div>
+        </section>
 
-        /* Estilo para as seções */
-        .section {
-            padding: 30px 0;
-        }
-
-        /* Estilo para os cards de projeto */
-        .card {
-            border: none;
-            transition: transform 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Estilo para os botões */
-        .btn-primary {
-            background-color: #FF5733;
-            border-color: #FF5733;
-        }
-
-        .btn-primary:hover {
-            background-color: #FFA07A;
-            border-color: #FFA07A;
-        }
-
-        /* Estilo para as habilidades */
-        .skills-card {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 20px;
-        }
-
-        .skills-category {
-            font-weight: bold;
-            color: #3498db;
-            margin-bottom: 10px;
-        }
-
-        .skills-list {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .skills-list li {
-            margin-bottom: 5px;
-        }
-
-        .skill-level {
-            font-size: 0.8rem;
-            color: #777;
-        }
-
-        /* Estilo para o rodapé */
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-        }
-
-        /* Estilo para os ícones de redes sociais */
-        .social-icons {
-            font-size: 2rem;
-            margin-top: 20px;
-            display: inline-flex;
-            background-color: rgba(0,0,0,0.2);
-            border-radius: 5px;
-        }
-
-        .social-icons a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            transition: transform .2s;
-        }
-
-        .social-icons a:hover {
-            color: aqua;
-             transform: scale(1.5);
-        }
-        .display-4 {
-            font-weight: bold !important;
-        }
-    </style>
-</head>
-<body>
-    <header class="text-center">
-        <h1 class="display-4">Rodolfo Cesar Cordeiro</h1>
-        <h2>Dev Full Stack</h2>
-        <!-- Adicione os ícones de redes sociais aqui -->
-        <div class="social-icons">
-            <a href="https://github.com/ocesarodolfo" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.instagram.com/ocesarodolfo/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:rodolfocordeiro2002@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/rodolfo-cesar-cordeiro-b448a0195/https://www.linkedin.com/in/rodolfo" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </header>
-
-    <section id="sobre" class="section">
-        <div class="container">
-            <h2 class="section-title">Sobre Mim</h2>
-            <p>Sou um desenvolvedor Full Stack com experiência em programação web e banco de dados. Tenho conhecimentos em Banco de Dados MySQL, PHP, CSS, HTML5 e JavaScript. Além disso, sou ex-aluno do curso Técnico em Informática pelo Centro Federal de Educação Tecnológica de Minas Gerais – CEFET-MG, campus Leopoldina.</p>
-            <p>Interessado em adquirir novos conhecimentos e experiências, vivenciando novos desafios para aperfeiçoamento profissional e pessoal.</p>
-        </div>
-    </section>
-
-    <section id="skills" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Skills</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 skills-card">
-                        <div class="card-body">
-                            <h5 class="skills-category">Front-End</h5>
-                            <ul class="skills-list">
-                                <li>HTML <span class="skill-level">(Avançado)</span></li>
-                                <li>CSS <span class="skill-level">(Avançado)</span></li>
-                                <li>JavaScript <span class="skill-level">(Intermediário)</span></li>
-                            </ul>
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title text-center">Skills</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 skills-card">
+                            <div class="card-body">
+                                <h5 class="skills-category">Front-End</h5>
+                                <ul class="skills-list">
+                                    <li>
+                                        HTML<span class="skill-level"
+                                            >(Intermediário)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        CSS
+                                        <span class="skill-level"
+                                            >(Intermediário)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        JavaScript
+                                        <span class="skill-level"
+                                            >(Intermediário)</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 skills-card">
-                        <div class="card-body">
-                            <h5 class="skills-category">Back-End</h5>
-                            <ul class="skills-list">
-                                <li>Node.js <span class="skill-level">(Intermediário)</span></li>
-                                <li>MySQL <span class="skill-level">(Intermediário)</span></li>
-                                <li>PHP <span class="skill-level">(Intermediário)</span></li>
-                                <li>C <span class="skill-level">(Básico)</span></li>
-                                <li>C++ <span class="skill-level">(Básico)</span></li>
-                                <li>C# <span class="skill-level">(Básico)</span></li> <!-- Adicionei C# como básico -->
-                            </ul>
+                    <div class="col-md-4">
+                        <div class="card mb-4 skills-card">
+                            <div class="card-body">
+                                <h5 class="skills-category">Back-End</h5>
+                                <ul class="skills-list">
+                                    <li>
+                                        Node.js
+                                        <span class="skill-level"
+                                            >(Intermediário)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        MySQL
+                                        <span class="skill-level"
+                                            >(Intermediário)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        PHP
+                                        <span class="skill-level"
+                                            >(Intermediário)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        C
+                                        <span class="skill-level"
+                                            >(Básico)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        C++
+                                        <span class="skill-level"
+                                            >(Básico)</span
+                                        >
+                                    </li>
+                                    <li>
+                                        C#
+                                        <span class="skill-level"
+                                            >(Básico)</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 skills-card">
-                        <div class="card-body">
-                            <h5 class="skills-category">DevOps</h5>
-                            <ul class="skills-list">
-                                <li>Docker <span class="skill-level">(Básico)</span></li>
-                            </ul>
+                    <div class="col-md-4">
+                        <div class="card mb-4 skills-card">
+                            <div class="card-body">
+                                <h5 class="skills-category">DevOps</h5>
+                                <ul class="skills-list">
+                                    <li>
+                                        Docker
+                                        <span class="skill-level"
+                                            >(Básico)</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="skills" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title text-center">Interesses</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 skills-card">
-                        <div class="card-body">
-                            <h5 class="skills-category">Front-End</h5>
-                            <ul class="skills-list">
-                                <li>Angular</li>
-                                <li>React</li>
-                                <li>TypeScript</li>
-                            </ul>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title text-center">Interesses</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 skills-card">
+                            <div class="card-body">
+                                <h5 class="skills-category">Front-End</h5>
+                                <ul class="skills-list">
+                                    <li>Angular</li>
+                                    <li>React</li>
+                                    <li>TypeScript</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 skills-card">
-                        <div class="card-body">
-                            <h5 class="skills-category">Back-End</h5>
-                            <ul class="skills-list">
-                                <li>Python</li>
-                            </ul>
+                    <div class="col-md-4">
+                        <div class="card mb-4 skills-card">
+                            <div class="card-body">
+                                <h5 class="skills-category">Back-End</h5>
+                                <ul class="skills-list">
+                                    <li>Python</li>
+                                    <li>.Net</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 skills-card">
-                        <div class="card-body">
-                            <h5 class="skills-category">DevOps</h5>
-                            <ul class="skills-list">
-                                <li>Jenkins <span class="skill-level"></span></li>
-                                <li>Kubernetes <span class="skill-level"></span></li>
-                            </ul>
+                    <div class="col-md-4">
+                        <div class="card mb-4 skills-card">
+                            <div class="card-body">
+                                <h5 class="skills-category">DevOps</h5>
+                                <ul class="skills-list">
+                                    <li>
+                                        Jenkins
+                                        <span class="skill-level"></span>
+                                    </li>
+                                    <li>
+                                        Kubernetes
+                                        <span class="skill-level"></span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projetos" class="section">
-        <div class="container">
-            <h2 class="section-title">Projetos</h2>
-            <h4>Projeto 1</h4>
-            <h4>Projeto 2</h4>
-        </div>
-    </section>
+        <section id="projetos" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Projetos</h2>
+            </div>
+        </section>
 
-    <section id="experiencias" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Experiências</h2>
-            <h3>Desenvolvedor PHP - Solutech Sistemas</h3>
+        <section id="experiencias" class="section">
+            <div class="container">
+                <h2 class="section-title">Experiências</h2>
+                <h3>Desenvolvedor PHP - Solutech Sistemas</h3>
                 <h4>Abril 2022 - Atual</h4>
-                    <ul>
-                        <li>Responsável pela manutenção e desenvolvimento de um sistema acadêmico.</li>
-                    </ul>
-            <h3>Bolsista de Iniciação Científica - Centro Federal de Educação Tecnológica – CEFET-MG</h3>
+                <ul>
+                    <li>
+                        Responsável pela manutenção e desenvolvimento de um
+                        sistema acadêmico.
+                    </li>
+                </ul>
+                <h3>Freelancer - SAS Brasil</h3>
+                <h4>Janeiro 2022 - Atual</h4>
+                <ul>
+                    <li>Suporte para jogadores.</li>
+                    <li>Desenvolvimento de eventos.</li>
+                    <li>Análise de denúncias.</li>
+                    <li>Gerenciamento de equipe.</li>
+                    <li>Elaboração de regras e normas.</li>
+                    <li>Desenvolvimento de bots node.js.</li>
+                    <li>Gerenciamento de dados MySQL.</li>
+                    <li>Manutenção do servidor em Linux e Windows.</li>
+                    <li>Gerenciamento de aplicações usando Docker.</li>
+                    <li>CEO da comunidade.</li>
+                </ul>
+                <h3>
+                    Projeto Interdisciplinar - Centro Federal de Educação
+                    Tecnológica – CEFET-MG
+                </h3>
+                <h4>Maio 2021 a Fevereiro 2022</h4>
+                <ul>
+                    <li>
+                        Criação da logo para o sistema Android intitulado
+                        "APPHIV".
+                    </li>
+                    <li>Modelagem do sistema e do banco de dados.</li>
+                    <li>Implementação do banco de dados do projeto.</li>
+                    <li>Implementação do aplicativo para o sistema Android.</li>
+                    <li>Integração do sistema com a API Google Sign-In.</li>
+                </ul>
+                <h3>
+                    Bolsista de Iniciação Científica - Centro Federal de
+                    Educação Tecnológica – CEFET-MG
+                </h3>
                 <h4>Março 2020 a Fevereiro 2021</h4>
                 <ul>
-                    <li>Criação e desenvolvimento da arte visual e da logo do sistema web intitulado "NãoSeiQCurso".</li>
+                    <li>
+                        Criação e desenvolvimento da arte visual e da logo do
+                        sistema web intitulado "NãoSeiQCurso".
+                    </li>
                     <li>Modelagem do sistema e do banco de dados.</li>
                     <li>Implementação do banco de dados do projeto.</li>
                     <li>Implementação do sistema web.</li>
                     <li>Disponibilização do sistema web no servidor online.</li>
                 </ul>
-            <h3>Projeto Interdisciplinar - Centro Federal de Educação Tecnológica – CEFET-MG</h3>
-                <h4>Maio 2021 a Fevereiro 2022</h4>
-                        <ul>
-                            <li>Criação da logo para o sistema Android intitulado "APPHIV".</li>
-                            <li>Modelagem do sistema e do banco de dados.</li>
-                            <li>Implementação do banco de dados do projeto.</li>
-                            <li>Implementação do aplicativo para o sistema Android.</li>
-                            <li>Integração do sistema com a API Google Sign-In.</li>
-                        </ul>
+            </div>
+        </section>
 
-        </div>
-    </section>
+        <footer class="text-center">
+            <p>&copy; 2023 Rodolfo Cesar Cordeiro</p>
+        </footer>
 
-    <!-- Adicione mais seções conforme necessário -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <footer class="text-center">
-        <p>&copy; 2023 Rodolfo Cesar Cordeiro</p>
-    </footer>
-
-    <!-- Adicione os scripts do Bootstrap e do jQuery (necessários para o Bootstrap) no final do corpo -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Adicione os ícones do FontAwesome (necessários para os ícones de redes sociais) -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</body>
+        <script
+            src="https://kit.fontawesome.com/a076d05399.js"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
