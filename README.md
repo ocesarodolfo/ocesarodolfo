@@ -3,17 +3,18 @@
 - 🔍 Em busca do conhecimento!
 - 🧠 Interesse em desenvolvimento pessoal e proficional.
 
-## GitHub Stats
-<div>
-  <img height="130em" src="https://github-readme-stats.vercel.app/api?username=ocesarodolfo&show_icons=true&theme=dark&include_all_commits=true&count_private=true">
-  <img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ocesarodolfo&layout=compact&langs_count=7&theme=dark"> <br>
-  <img src="https://komarev.com/ghpvc/?username=ocesarodolfo&color=green">
-</div>
-
 ## Projetos Acadêmicos
 - Estagiando: modelagem de um sistema WEB para o acompanhamento de estágios (não finalizado).
 - NãoSeiQCurso: projeto de iniciação ciêntífica para auxiliar os novos alunos do CEFET-MG a escolherem um curso.
 - APPHIV: projeto interdiciplinar desenvolvido no final do curso técnico em informática, sendo um aplicativo para auxiliar portadores do vírus HIV no acompanhamento e gerenciamento de seus sintomas e medicações; 2021.
+
+## Public GitHub Stats
+
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ocesarodolfo&theme=nord_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ocesarodolfo&hide=Html&theme=nord_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ocesarodolfo&theme=nord_dark) |
+| :-: | :-: | :-: |
+
+| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ocesarodolfo&theme=nord_dark) | ![](https://github-readme-streak-stats.herokuapp.com/?user=ocesarodolfo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=2D3742&stroke=2D3742&ring=6bbbca&fire=6bbbca&currStreakNum=fff&sideNums=6bbbca&currStreakLabel=6bbbca&sideLabels=fff&dates=fff) |
+| :-: | :-: |
 
 ## Conhecimentos
 <div style="display: inline_block"><br>
