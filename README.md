@@ -10,11 +10,11 @@
 
 ## Public GitHub Stats
 
-| ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ocesarodolfo&theme=github_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ocesarodolfo&theme=github_dark) | ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ocesarodolfo&theme=github_dark) |
-| :-: | :-: | :-: |
+![]([http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ocesarodolfo&theme=github_dark](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=ocesarodolfo&theme=github_dark)) ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ocesarodolfo&theme=github_dark) ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ocesarodolfo&theme=github_dark)
 
-| ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ocesarodolfo&theme=github_dark) | ![](https://github-readme-streak-stats.herokuapp.com/?user=ocesarodolfo&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0d1117&stroke=2D3742&ring=6bbbca&fire=6bbbca&currStreakNum=fff&sideNums=6bbbca&currStreakLabel=6bbbca&sideLabels=fff&dates=fff) |
-| :-: | :-: |
+![](https://github-readme-streak-stats.herokuapp.com?user=ocesarodolfo&theme=github_dark&locale=pt_BR&date_format=n%2Fj%5B%2FY%5D&mode=weekly)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ocesarodolfo&theme=github_dark)
 
 ## Conhecimentos
 <div style="display: inline_block"><br>
@@ -28,6 +28,7 @@
   <img align="center" alt="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
   <img align="center" alt="JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
   <img align="center" alt="JQuery" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" />
+  <img align="center" alt="Laravel" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" />
   <img align="center" alt="MySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
   <img align="center" alt="Node.js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
   <img align="center" alt="PHP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
@@ -40,5 +41,5 @@
 <div>
   <a href="mailto:rodolfocordeiro2002@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/rodolfo-cesar-cordeiro-b448a0195" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="https://instagram.com/cesarodolfo05" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/cesarodolfo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
