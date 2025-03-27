@@ -1,7 +1,7 @@
 ## Olá, meu nome é <a style="text-decoration: none; text-color: unset; text-underline-position: none;" href="https://github.com/cesarodolfo">Rodolfo</a>! 👋
 
 - 🔍 Em busca do conhecimento!
-- 🧠 Interesse em desenvolvimento pessoal e proficional.
+- 🧠 Interesse em desenvolvimento pessoal e profissional.
 
 ## Projetos Acadêmicos
 - Estagiando: modelagem de um sistema WEB para o acompanhamento de estágios (não finalizado).
